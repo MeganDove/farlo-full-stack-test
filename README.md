@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- I opted to use Vite, rather than creat-react-app as this is what I am used to using
+- I chose to bring all the show data into the local state due to the unknowns of what else this state could be used for as part of a larger application.
+- The loading and error messages could have nicer UI, however I didn't want to spend too long on these features
+- I would have preferred to spent longer on the CSS if time allowed it. 
